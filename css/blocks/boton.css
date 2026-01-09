@@ -1,0 +1,11 @@
+.boton {
+    min-height: 25px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+    width: 180px;
+    border: none;
+    font-family: "Montserrat" sans-serif;
+    font-size: 14px;
+}
