@@ -4,4 +4,22 @@
      url("../../img/FondoHero.jpg") center / cover no-repeat;
     height: 100vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__titulo {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: clamp(38px, 1.2vw, 48px);
+}
+
+.hero__texto {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: clamp(12px, 1.2vw, 20px);
 }
