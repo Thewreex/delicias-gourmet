@@ -5,8 +5,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 100px 0;
+    justify-content: space-around;
 }
 
 .platillos__titulo {
@@ -17,5 +16,5 @@
 .platillos__contenedor__cards {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 150px;
 }

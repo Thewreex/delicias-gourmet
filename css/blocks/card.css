@@ -1,0 +1,30 @@
+.card {
+    height: 400px ;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.card__imagen {
+    height: 170px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card__titulo {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+
+.card__texto {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card--texto--platillos {
+    color: orange;
+    font-weight: 700;
+}
