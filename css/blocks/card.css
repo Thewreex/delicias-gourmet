@@ -4,6 +4,14 @@
     background-color: white;
     border-radius: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card--opiniones {
+    background-color: rgb(241, 241, 241);
+    gap: 30px;
 }
 
 .card__imagen {
@@ -27,4 +35,15 @@
 .card--texto--platillos {
     color: orange;
     font-weight: 700;
+}
+
+
+.card--opiniones .card__imagen {
+  width: 100px;
+  height: 100px;
+}
+
+.--highlighted {
+    border: 2px solid orange;
+    background-color: rgb(248, 232, 201);
 }
